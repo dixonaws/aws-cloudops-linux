@@ -1,7 +1,7 @@
 languageCode = "en-us"
 ignoreFiles = [ "\\.files/README.md$",  ]
 defaultContentLanguage = "en"
-title = "Amazon ECS Workshop"
+title = "Amazon CloudOps Linux Workshop"
 theme = "learn"
 uglyurls = false
 # googleAnalytics = "UA-44634850-2"
@@ -14,14 +14,14 @@ hrefTargetBlank = true
 [params]
 themeVariant = "mine"
 showVisitedLinks = false
-author = "Brent Langston"
-description = "Amazon ECS Workshop"
+author = "John Dixon"
+description = "Amazon CloudOps Linux Workshop"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-editURL = "https://github.com/brentley/ecsworkshop/edit/main/content/"
+editURL = "https://github.com/dixonaws/aws-cloudops-linux/edit/main/content/"
 
 #
 
@@ -34,36 +34,24 @@ editURL = "https://github.com/brentley/ecsworkshop/edit/main/content/"
     weight = -110
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-youtube'></i> Containers from the Couch"
-url = "https://containersfromthecouch.com"
+name = "<i class='fab fa-twitter fa-lg'></i> @dixonjp90"
+identifier = "tw"
+url = "https://twitter.com/intent/user?screen_name=dixonjp90"
 weight = 1
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-twitter fa-lg'></i> @brentContained"
-identifier = "tw"
-url = "https://twitter.com/intent/user?screen_name=brentContained"
+name = "<i class='fab fa-linkedin fa-lg'></i> John Dixon"
+identifier = "li0"
+url = "https://www.linkedin.com/in/jpd44/"
 weight = 2
 
 [[menu.shortcuts]]
-name = "<i class='fab fa-twitter fa-lg'></i> @realadamjkeller"
-identifier = "twa"
-url = "https://twitter.com/intent/user?screen_name=realadamjkeller"
-weight = 3
+name = "<i class='fab fa-linkedin fa-lg'></i> Claudiu Bota"
+identifier = "li1"
+url = "https://www.linkedin.com/in/claudiu-bota-6b400315a/"
+weight = 2
 
-[[menu.shortcuts]]
-name = "<i class='fas fa-chalkboard'></i> AppMesh Workshop"
-url = "https://appmeshworkshop.com"
-weight = 6
 
-[[menu.shortcuts]]
-name = "<i class='fas fa-chalkboard'></i> EKS Workshop"
-url = "https://eksworkshop.com"
-weight = 7
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-chalkboard'></i> AWS Partner Workshops"
-url = "https://awsworkshop.io"
-weight = 8
 
 [outputs]
 home = [ "HTML", "JSON"]

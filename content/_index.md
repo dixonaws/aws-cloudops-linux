@@ -1,19 +1,17 @@
 ---
-title: "Amazon ECS Workshop"
+title: "Amazon CloudOps Linux Workshop"
 chapter: true
 weight: 1
 ---
 
-{{% notice note %}}
-For even more container related content, check out our new show:
-[Containers from the Couch](https://containersfromthecouch.com)
-{{% /notice %}}
+## Amazon CloudOps Linux Workshop
 
-## Amazon ECS Workshop for AWS Fargate
+![Title Image](/images/TuxFlat.png)
 
-![3-service-animated](/images/3-service-animated.gif)
+In this workshop, we will walk through the fundamentals of Linux server administration as a part of the AWS Cloud Operations course.
+By the end of this two-session module, students will be able to perform basic Linux and AWS administration tasks.
 
-
-In this workshop, we will launch a frontend and multpile backend services on AWS Elastic Container Service, 
-and explore how you might adopt this workflow into your environment. 
+Instructors:
+* John Dixon (dixonaws@amazon.com)
+* Claudiu Bota (claubota@amazon.com)
 
