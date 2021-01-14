@@ -5,16 +5,17 @@ weight: 5
 pre: '<i class="fa fa-film" aria-hidden="true"></i> '
 ---
 
-# Introduction to ECS (Elastic Container Service)
+# Introduction to Linux on AWS
 
-{{< youtube mW3bTlJTU1w >}}
+Welcome to the Amazon CloudOps Linux Workshop!
 
-Welcome to the Amazon ECS Workshop!
+This workshop is designed to provide basic training for aspiring cloud operations engineers.
 
-This workshop is designed to educate engineers that might not be familiar with Fargate, ECS,
-and possibly even Docker container workflow.
+As a pre-requisite, you should have:
 
-![Title Image](/images/ecsproductpage.png)
+1. Completed the [Linux Survival walkthrough](https://linuxsurvival.com/linux-tutorial-introduction/)
+2. Setup your laptop environment
+3. Established an AWS Account
 
 This chapter will give you a foundational introduction on ECS and the components involved to getting your services deployed to it.
 

@@ -12,6 +12,7 @@ In this workshop, we will walk through the fundamentals of Linux server administ
 By the end of this two-session module, students will be able to perform basic Linux and AWS administration tasks.
 
 Instructors:
-* John Dixon (dixonaws@amazon.com)
-* Claudiu Bota (claubota@amazon.com)
+
+- John Dixon (dixonaws@amazon.com)
+- Claudiu Bota (claubota@amazon.com)
 
