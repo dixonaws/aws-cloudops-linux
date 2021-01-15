@@ -1,8 +1,7 @@
 ---
 title: "Introduction"
 chapter: true
-weight: 5
-pre: '<i class="fa fa-film" aria-hidden="true"></i> '
+weight: 10
 ---
 
 # Introduction to Linux on AWS
@@ -17,7 +16,15 @@ As a pre-requisite, you should have:
 2. Setup your laptop environment
 3. Established an AWS Account
 
-This chapter will give you a foundational introduction on ECS and the components involved to getting your services deployed to it.
+This chapter will give you a foundational introduction on Linux and EC2. By the end of this tutorial, you will have accomplished the following:
+
+1. Basic knowledge of EC2 - how to launch, terminate, login to an instance
+2. Installed software on a Linux instance in AWS
+3. Configured a network to allow access to an instance   
+4. Added storage to an instance
+5. Understood the AWS global infrasteructure at a high level - regions and availabililty zones
+
+
 
 Please move on to the next section to begin.
 
