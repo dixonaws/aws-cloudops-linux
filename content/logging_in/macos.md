@@ -1,6 +1,7 @@
 ---
 title: "macOS"
 hidden: false
+chapter: false
 weight: 10
 ---
 

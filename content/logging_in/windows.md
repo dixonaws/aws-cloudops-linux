@@ -1,6 +1,7 @@
 ---
 title: "Windows"
 hidden: false
+chapter: false
 weight: 20
 ---
 

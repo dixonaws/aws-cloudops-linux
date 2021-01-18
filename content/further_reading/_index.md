@@ -1,6 +1,6 @@
 ---
 title: "Further Reading"
-weight: 99
+weight: 1000
 ---
 
 Continue your discovery of AWS EC2 and Linux:
