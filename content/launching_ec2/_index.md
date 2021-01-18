@@ -1,7 +1,7 @@
 ---
 title: "Launching an EC2 Instance"
 chapter: true
-weight: 10
+weight: 20
 pre: 
 ---
 
