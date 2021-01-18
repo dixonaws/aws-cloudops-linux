@@ -1,11 +1,9 @@
 ---
 title: "Global Infrastructure"
-chapter: true
+chapter: false
 weight: 10
 pre: 
 ---
-
-# Global Infrastructure
 
 AWS currently has 24 regions in its [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/).
 Each of these regions contains at least two Availability Zones. You can think of an Availability Zone as a collection
