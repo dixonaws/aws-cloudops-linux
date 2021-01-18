@@ -4,6 +4,11 @@ chapter: true
 weight: 30
 ---
 
-# Local Testing using the ecs-cli
+# Logging in
 
-Now that you've deployed your microservice environment to the cloud, what about local testing? To continually push to the cloud while iterating can be tedious. Let's walk through ecs-cli local and how we can test this environment locally and see our changes in realtime.
+Now that you've deployed your EC2 instance, you can log in to it like any other Linux host. 
+The procedure varies based on the client OS you are using (Windows or Linux). Establish a connection and have
+a look around in your new instance.
+
+
+

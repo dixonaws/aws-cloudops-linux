@@ -1,4 +1,4 @@
-# ecsworkshop
+# aws-cloudops-workshop
 
 ### Setup:
 

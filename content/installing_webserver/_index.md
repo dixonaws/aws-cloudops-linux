@@ -1,14 +1,11 @@
 ---
 title: "Installing a Web Server"
-chapter: false
+chapter: true
 weight: 40
-pre: 
 ---
 
-What will we be doing in the workshop?
+What will we be doing in this section?
 
-We will learn by _doing_ and will build a typical 3 tier polyglot microservice
-stack like you may work with in your organization.
+We will learn by _doing_ and will install an Apache web server using the yum package manager. 
 
-![3 tier archicture](/images/3-tier-architecture.svg)
 

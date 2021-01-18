@@ -1,7 +1,7 @@
 ---
 title: "Terminating the Instance"
 chapter: true
-weight: 50
+weight: 100
 pre: 
 ---
 

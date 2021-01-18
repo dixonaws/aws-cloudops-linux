@@ -1,6 +1,6 @@
 ---
 title: "Launch the Instance"
-chapter: true
+chapter: false
 weight: 20
 pre: 
 ---

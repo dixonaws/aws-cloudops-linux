@@ -28,6 +28,7 @@
 
 body {
     color: var(--MAIN-TEXT-color) !important;
+    text-align: left;
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
@@ -94,6 +95,7 @@ a:hover {
     -ms-transition: width 0.5s ease;
     transition: width 0.5s ease;
     background-color: var(--MAIN-LINK-HOVER-color);
+
 }
 #sidebar {
 	background-color: var(--MENU-SECTIONS-BG-color);
