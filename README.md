@@ -13,7 +13,7 @@ On Linux:
 
 #### Clone this repo:
 From wherever you checkout repos:
-`git clone git@github.com:dixonaws/aws-cloudops-linux.git`
+`git clone https:/github.com/dixonaws/aws-cloudops-linux`
 
 #### Clone the theme submodule:
 `cd aws-cloudops-linux`
