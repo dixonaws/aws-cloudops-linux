@@ -1,11 +1,9 @@
 ---
 title: "Create an Amazon EBS volume"
-chapter: true
-weight: 20
+draft: false
+weight: 30
 pre: 
 ---
-
-# Create an Amazon EBS volume
 
 In this tutorial, you’ll create an Amazon Elastic Block Store (Amazon EBS) volume.
 

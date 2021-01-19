@@ -1,11 +1,9 @@
 ---
 title: "Attach volume to the instance"
-chapter: true
-weight: 30
+draft: false
+weight: 40
 pre: 
 ---
-
-# Attach volume to the instance
 
 In this tutorial, you’ll attach the Amazon Elastic Block Store (Amazon EBS) volume created in the previous step to your existent EC2 instance.
 
