@@ -4,7 +4,6 @@ defaultContentLanguage = "en"
 title = "Amazon CloudOps Linux Workshop"
 theme = "learn"
 uglyurls = true
-# googleAnalytics = "UA-44634850-2"
 sectionPagesMenu = "main"
 relativeURLs = true
 
@@ -14,7 +13,7 @@ hrefTargetBlank = true
 [params]
 themeVariant = "mine"
 showVisitedLinks = false
-author = "John Dixon"
+author = "John Dixon, Claudiu Bota"
 description = "Amazon CloudOps Linux Workshop"
 disableSearch = false
 disableAssetsBusting = false

@@ -5,8 +5,6 @@ weight: 20
 pre: 
 ---
 
-# Launch the Instance
-
 In this tutorial, you'll launch an EC2 (Elastic Compute Cloud) instance into a region of AWS.
 
 <img src='/images/launch_an_instance.png' width='400px'>
@@ -28,6 +26,11 @@ Key Pair | Create a new key pair with name <your last name>-us-east-1.pem and do
 
 Once you have launched the instance and it's Status Check shows _2/2 checks passed_, post your status to [this form](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing). 
 Continue to the next step.
+
+{{% notice warning%}}
+Please update the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) when you finish with Exercise 1.
+{{% /notice%}}
+
 
 
 
