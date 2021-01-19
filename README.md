@@ -13,10 +13,10 @@ On Linux:
 
 #### Clone this repo:
 From wherever you checkout repos:
-`git clone git@github.com:brentley/ecsworkshop.git`
+`git clone git@github.com:dixonaws/aws-cloudops-linux.git`
 
 #### Clone the theme submodule:
-`cd ecsworkshop`
+`cd aws-cloudops-linux`
 
 `git submodule init`
 
@@ -31,15 +31,7 @@ or
 `npm run test` to see stubbed in draft pages.
 
 #### View Hugo locally:
-Visit http://localhost:1313/ to see the site.
+Visit http://localhost:8080/ to see the site.
 
 #### Making Edits:
 As you save edits to a page, the site will live-reload to show your changes.
-
-#### Auto Deploy:
-Any commits to main will auto build and deploy in a couple of minutes. You can see the currently
-deployed hash at the bottom of the menu panel.
-
-note: shift-reload may be necessary in your browser to reflect the latest changes.
-
-Check out the commands in `buildspec.yml` to see the build/deploy process
