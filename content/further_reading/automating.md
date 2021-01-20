@@ -2,7 +2,7 @@
 title: "Automation"
 draft: false
 chapter: no
-weight: 1
+weight: 10
 ---
 
 All of this can be automated with a tool called Cloudformation. What would we have to do?
