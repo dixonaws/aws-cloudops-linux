@@ -23,11 +23,11 @@ Tags | _Key=Name, Value=your last name_
 Security Group | _SSH, Source=My IP_ 
 Key Pair | Create a new key pair with name <your last name>-us-east-1.pem and download it
 
-
-Once you have launched the instance and it's Status Check shows _2/2 checks passed_, post your status to [this form](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing). 
+<br>
+At this point, you are well on your way to becoming an AWS Cloud Operations Administrator! Once you have launched the instance and it's Status Check shows _2 of 2 checks passed_, post your status to [this form](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing). 
 Continue to the next step.
 
-{{% notice warning%}}
+{{% notice note%}}
 Please update the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) when you finish with Exercise 1.
 {{% /notice%}}
 

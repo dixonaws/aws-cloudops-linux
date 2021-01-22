@@ -1,5 +1,5 @@
 ---
-title: "Moving the web root"
+title: "Configure Apache"
 chapter: false
 weight: 15
 ---
