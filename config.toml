@@ -4,7 +4,6 @@ defaultContentLanguage = "en"
 title = "Amazon CloudOps Linux Workshop"
 theme = "learn"
 uglyurls = true
-# googleAnalytics = "UA-44634850-2"
 sectionPagesMenu = "main"
 relativeURLs = true
 
@@ -14,7 +13,7 @@ hrefTargetBlank = true
 [params]
 themeVariant = "mine"
 showVisitedLinks = false
-author = "John Dixon"
+author = "John Dixon, Claudiu Bota"
 description = "Amazon CloudOps Linux Workshop"
 disableSearch = false
 disableAssetsBusting = false
@@ -27,33 +26,36 @@ baseURL = "https://dixonaws.com/aws-cloudops-linux/index.html"
 #
 
 [menu]
-  [[menu.main]]
-    identifier = "Prerequisites"
-    name = "This is the Mu track"
-    title = "Workshop using Mu"
-    url = "/mu/"
-    weight = -110
+
+[[menu.shortcuts]]
+identifier = 'github'
+name="<i class='fab fa-github fa-lg'></i> Github Repo"
+url = "https://github.com/dixonaws/aws-cloudops-linux"
+weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-twitter fa-lg'></i> @dixonjp90"
 identifier = "tw"
 url = "https://twitter.com/intent/user?screen_name=dixonjp90"
-weight = 1
+weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-linkedin fa-lg'></i> John Dixon"
 identifier = "li0"
 url = "https://www.linkedin.com/in/jpd44/"
-weight = 2
+weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-linkedin fa-lg'></i> Claudiu Bota"
 identifier = "li1"
 url = "https://www.linkedin.com/in/claudiu-bota-6b400315a/"
-weight = 2
+weight = 40
 
 
 
 [outputs]
 home = [ "HTML", "JSON"]
 page = [ "HTML" ]
+
+[markup.goldmark.renderer]
+unsafe= true
