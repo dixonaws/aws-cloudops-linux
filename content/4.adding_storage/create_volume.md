@@ -1,7 +1,7 @@
 ---
 title: "Create an Amazon EBS volume"
 draft: false
-weight: 30
+weight: 20
 pre: 
 ---
 

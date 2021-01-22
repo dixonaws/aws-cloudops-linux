@@ -4,9 +4,7 @@ chapter: false
 weight: 15
 ---
 
-Use the yum package manager to install a popular open-source web server, Apache httpd. 
-
-1. Connect to the EC2 instance that you created earlier
+In this section, we'll use the yum package manager to install a popular open-source web server, _Apache httpd_. Start connecting to the EC2 instance that you created earlier
 
 Get the latest bug fixes and security updates by updating the software on your EC2 instance. To do this, use the following command:
 ```commandline
@@ -32,7 +30,7 @@ root directory, your content appears at the public DNS address of your EC2
 instance instead of the Apache test page.
 
 
-Configure the web server to start with each system boot using the chkconfig command.
+Configure the web server to start with each system boot using the chkconfig command:
 
 ```commandline
 sudo systemctl enable httpd
@@ -43,7 +41,7 @@ lynx to browse to sites on the command line.
 
 Install it with this command:
 ```commandline
-sudo yum install lynx-curses
+sudo yum install lynx
 ```
 
 
@@ -53,6 +51,4 @@ Now issue this command to browse to your web server:
 lynx http://localhost
 ```
 
-At this point, you should have installed apache httpd and been able to browse to it from your Linux instance. In the next section, we'll configure 
-the network so that you can access your web server from the internet.
-
+At this point, you should have installed _Apache httpd_ and been able to browse to it from your Linux instance. 

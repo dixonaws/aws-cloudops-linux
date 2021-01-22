@@ -1,7 +1,7 @@
 ---
 title: "Moving the web volume"
 chapter: false
-weight: 15
+weight: 40
 ---
 
 The EBS volume is attached to the EC2 instance. However, you need to make the volume available to use by formatting and mounting it.
@@ -31,7 +31,7 @@ The attached volume is empty and you must create a file system on it before you 
 sudo mkfs -t xfs /dev/xvdf
 ```
 
-Next step is to create a mount point directory for the volume. This mount point is where we will read and write files to the volume. 
+Next step is to create a mount point directory for the volume. This mount point is where we will read and write files to the volume:
 
 ```commandline
 sudo mkdir /data
