@@ -15,6 +15,7 @@ We will learn by _doing_ and will install an Apache web server using the yum pac
 We'll install the Apache Web Server (also referred to as _httpd_ - the HTTP Daemon). This is a very common (open source)
 piece of software that you'll encounter in almost any company that has internet facing applications.
 Other common web servers include:
+
 - nginx (pronounced 'engine ex')
 - Internet Information Services (IIS) - Microsoft
 

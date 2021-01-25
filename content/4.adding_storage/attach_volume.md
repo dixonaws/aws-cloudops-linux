@@ -1,7 +1,7 @@
 ---
 title: "Attach volume to the instance"
 draft: false
-weight: 40
+weight: 30
 pre: 
 ---
 

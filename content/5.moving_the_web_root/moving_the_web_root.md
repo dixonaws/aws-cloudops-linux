@@ -57,7 +57,7 @@ DocumentRoot "/var/www/html"
 
 ```
 
-Modify _DocumentRoot_ and _<Directory "/var/www/html">_ to use the new location:
+Modify _DocumentRoot_ and _Directory "/var/www/html"_ to use the new location:
 
 ```
 #

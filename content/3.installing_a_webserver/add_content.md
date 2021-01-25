@@ -56,5 +56,29 @@ find /var/www -type f -exec sudo chmod 0664 {} +
 
 
 
-Add some sample content to be served by your web server. Change directory to /var/www/html and add a file called index.html.
+Add some sample content to be served by your web server. Change directory to /var/www/html and add a file called index.html using this command:
+
+```commandline
+sudo nano index.html
+```
+
+You can add any html file you want. For example, you can use this simple html file:
+
+```code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+
+```
+
+Save your file.
+
+In the next section, we'll configure  the network so that you can access your web server from the internet.
+
 

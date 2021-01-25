@@ -1,7 +1,7 @@
 ---
 title: "Mounting on reboot"
 chapter: false
-weight: 15
+weight: 50
 ---
 
 The mount point we did in the previous section is not preserved after rebooting the EC2 instance. In order to do so, we need to add an entry for the device to the _/etc/fstab_ file. This file contains all the disks and partitions, and describes how they should be initialized into the filesystem. 
@@ -45,7 +45,7 @@ UUID=aebf131c-6957-451e-8d34-ec978d9581ae  /data  xfs  defaults,nofail  0  2
 
 Save the file.
 
-Now, the _/etc/fstab/_ will have two entries. Check that the entry has been added correctly. We'll unmount the device and then mount all file systems in _/etc/fstab_.
+Now, the _/etc/fstab/_ has two entries. Check that the entry has been added correctly. We'll unmount the device and then mount all file systems in _/etc/fstab_.
 
 ```commandline
 sudo umount /data
