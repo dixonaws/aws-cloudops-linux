@@ -27,7 +27,6 @@ This chapter will give you a foundational introduction on Linux and EC2. By the 
 5. Understood the AWS global infrasteructure at a high level - regions and availabililty zones
 
 
-
 Please move on to the next section to begin.
 
 {{% children showhidden="false" %}}
