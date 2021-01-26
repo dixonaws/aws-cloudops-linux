@@ -23,12 +23,12 @@ Start the web server with this command:
 sudo systemctl start httpd
 ```
 
-Note: 
+{{%notice note%}} 
 The Apache test page appears only when there is no content in the document 
 root directory, /var/www/html. After you add content to the document 
 root directory, your content appears at the public DNS address of your EC2 
 instance instead of the Apache test page.
-
+{{% /notice%}}
 
 Configure the web server to start with each system boot using the chkconfig command:
 
@@ -50,5 +50,15 @@ Now issue this command to browse to your web server:
 ```
 lynx http://localhost
 ```
+
+Type _q_ to exit Lynx.
+
+{{%notice note%}} 
+You may initially see an error in the browser that
+reads _HTTP 301 - Unauthorized_. This is the default response for new 
+installations of Apache httpd. When you add some web content in the next section, this
+error will not be shown.
+{{% /notice%}}
+
 
 At this point, you should have installed _Apache httpd_ and been able to browse to it from your Linux instance. 

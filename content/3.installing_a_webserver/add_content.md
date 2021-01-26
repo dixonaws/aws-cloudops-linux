@@ -4,11 +4,15 @@ chapter: false
 weight: 20
 ---
 
-To allow ec2-user to manage files in the default root directory for your Apache web 
+By default, Apache httpd stores web content in the /var/www directory. To 
+allow the _ec2-user_ user to manage files 
+in the default root directory for your Apache web 
 server, modify the ownership and permissions of the /var/www directory. In this 
-tutorial, you add a group named www to your EC2 instance. Then you give that 
+tutorial, you add a group named _www_ to your EC2 instance and add the _ec2-user_
+user as a member of that group. Then you give that 
 group ownership of the /var/www directory and add write permissions for the 
-group. Any members of that group can then add, delete, and modify files for the web server.
+group. Any 
+members of that group can then add, delete, and modify files for the web server.
 
 To set file permissions for the Apache web server, add the www group to your EC2 instance 
 with the following command.
@@ -48,18 +52,16 @@ sudo chmod 2775 /var/www
 find /var/www -type d -exec sudo chmod 2775 {} +
 ```
 
-
 Recursively change the permissions for files in the /var/www directory and its subdirectories to add group write permissions.
 ```commandline
 find /var/www -type f -exec sudo chmod 0664 {} +
 ```
 
 
-
 Add some sample content to be served by your web server. Change directory to /var/www/html and add a file called index.html using this command:
 
 ```commandline
-sudo nano index.html
+nano index.html
 ```
 
 You can add any html file you want. For example, you can use this simple html file:
