@@ -12,6 +12,11 @@ In this tutorial, you’ll create an Amazon Elastic Block Store (Amazon EBS) vol
 Follow "Create an empty volume" using [these instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-volume.html). 
 Use the following parameters:
 
+{{%notice note%}}
+You can find the availability zone for your instance on the EC2 details page under the _Security_ tab.
+{{% /notice%}}
+
+
 Parameter | Value
 --- | ---
 Region | _us-east-1_

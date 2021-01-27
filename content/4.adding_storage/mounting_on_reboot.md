@@ -6,13 +6,20 @@ weight: 50
 
 The mount point we did in the previous section is not preserved after rebooting the EC2 instance. In order to do so, we need to add an entry for the device to the _/etc/fstab_ file. This file contains all the disks and partitions, and describes how they should be initialized into the filesystem. 
 
-First, we'll create a backup of the _/etc/fstab_ file:
+First, we'll create a backup of the _/etc/fstab_ file.
+
+{{%notice note%}}
+It is a good practice to create a backup of the _known good_ configuration file before
+making edits. Some critical files (such as /etc/fstab) can prevent the system
+from booting properly if there are typos or incorrect configuration.
+{{% /notice%}}
+
 
 ```commandline
 sudo cp /etc/fstab /etc/fstab.orig
 ```
 
-Next, find the devices' 128-bit universally unique identifier (UUID). This UUID, unlike the devices' names, is unique and does not change:
+Next, find the device's 128-bit universally unique identifier (UUID). This UUID, unlike the devices' names, is unique and does not change:
 ```commandline
 sudo blkid
 ```

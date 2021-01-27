@@ -18,7 +18,7 @@ during the first session. Exercises 3, 4, and 5 and more challenging. Work throu
 or office hours sessions.
 
 <br>
-_Your Tourguides:_
+Your Tourguides:
 
 | ![John Dixon](/images/dixonaws.png?height=250px&classes=shadow,border) | ![Claudiu Bota](/images/claubota.png?height=250px&classes=shadow,border) | ![Tux](/images/TuxBadge.png?height=250px&classes=shadow,border) |
 | ------ | ------ | ------ |

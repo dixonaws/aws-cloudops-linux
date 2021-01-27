@@ -12,8 +12,12 @@ Continue your discovery of AWS EC2 and Linux!
     greatly help the next cohort of students to navigate the material.
 
 #### Ideas to learn more about Linux and EC2
-- We've collected links to resources to help you round out your understanding of running Linux on AWS. 
-  One of the first things to try would be to automate steps 1-6 using 
+We've collected links to resources to help you round out your understanding of running Linux on AWS. 
+
+- Install the AWS Command Line Interface (CLI) and try to run through the steps in this workshop using only
+  the command line.
+    
+- One of the first things to try would be to automate steps 1-6 using 
 an AWS tool called [Cloudformation](https://aws.amazon.com/cloudformation/).
   
 - Dive deep on [Storage Management](/further_reading/storage_management.html) in Linux to prepare for the

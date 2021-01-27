@@ -26,6 +26,13 @@ Next, we need to modify Apache server's configuration file and make it use the n
 
 Open and edit the configuration file:
 
+{{%notice warning%}}
+It is a good practice to create a backup of the _known good_ configuration file before
+making edits. Some critical files (such as /etc/fstab) can prevent the system
+from booting properly if there are typos or incorrect configuration.
+{{% /notice%}}
+
+
 ```commandline
 sudo nano /etc/httpd/conf/httpd.conf 
 ```
@@ -92,7 +99,8 @@ Remove the _index.html_ file you created before:
 sudo rm /var/www/html/index.html
 ```
 
-Refresh your web browser. Your web site will not work. We need to restart the Apache server in order to use apply the new configuration.
+Refresh your web browser. Your web site will not show your custom index.html homepage. 
+We need to restart the Apache server in order to use apply the new configuration.
 
 Restart the Apache server:
 
@@ -102,4 +110,8 @@ sudo systemctl restart httpd
 
 Refresh again your browser. Your web site will be up and running. The Apache server uses the new location for its document root directory.
 
-Congratulations! You've finished the Linux Workshop!
+Congratulations! You've finished the Linux Workshop! Make sure to update the class roster to 
+show your progress.
+
+The next step is to clean up your account -- rmeove the instance and the EBS volume to 
+avoid any charges.
