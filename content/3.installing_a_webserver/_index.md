@@ -19,7 +19,10 @@ Other common web servers include:
 - nginx (pronounced 'engine ex')
 - Internet Information Services (IIS) - Microsoft
 
-<br>
-[According to Wikipedia](https://en.wikipedia.org/wiki/Web_server#/media/File:Usage_share_of_web_servers_(Source_Netcraft).svg), around 90% of web sites are served from Apache and nginx as of February 2019.
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Usage_share_of_web_servers_%28Source_Netcraft%29.svg">
+
+<br/>
+
+[According to Wikipedia](https://en.wikipedia.org/wiki/Web_server), around 90% of web sites are served from Apache and nginx as of February 2019.
 Microsoft IIS and others represent the remaining 10%. You can use a tool from Netcraft to determine what software a site is
 running. [Try it here and inspect www.amazon.com](https://sitereport.netcraft.com/?url=http://www.amazon.com)

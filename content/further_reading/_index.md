@@ -13,7 +13,9 @@ Continue your discovery of AWS EC2 and Linux!
 
 #### Ideas to learn more about Linux and EC2
 We've collected links to resources to help you round out your understanding of running Linux on AWS. 
-
+- Try the [AWS CloudShell](https://aws.amazon.com/cloudshell/) - a barebones Linux instance that you can access 
+  from the AWS console. Can you use it to login to the EC2 instance you created in this session?
+  
 - Install the AWS Command Line Interface (CLI) and try to run through the steps in this workshop using only
   the command line.
     
@@ -27,3 +29,6 @@ upcoming session on Storage in AWS.
 - Looking for more of a challenge? Dig in to Continuous Integration and Continuous Deployment (CI/CD) and Git
 using the links below. Many companies on the cutting edge are adopting CI/CD as a means to develop
   quality software.
+  
+- Check out some of the HOWTOs on the 
+  [Linux Documentation Project](https://tldp.org/HOWTO/HOWTO-INDEX/howtos.html), particularly [this one](https://tldp.org/HOWTO/From-PowerUp-To-Bash-Prompt-HOWTO.html), a great explanation of the boot sequence of a Linux machine.

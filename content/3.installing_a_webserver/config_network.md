@@ -21,6 +21,8 @@ address bar of
 a web browser, for example: _http://ec2-12-3-456-78.us-east-1.compute.amazonaws.com_. If 
 your web server is running, then you will see the content that you posted in
 step 2 - Add Content.
+
+<img src="/images/test_page_from_internet.png" height=300 style="border: 1px solid #000000">
 <br>
 {{% notice note%}}
 Please update the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) when you finish with Exercise 3.

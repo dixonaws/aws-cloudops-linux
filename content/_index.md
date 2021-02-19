@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-### Welcome!
+### Welcome Students!
 
 # Amazon CloudOps Linux Workshop
 
@@ -14,8 +14,8 @@ following AWS Cloud Administrator bootcamp. Depending on your level of experienc
 section to learn more about Linux administration.<p>&nbsp;<p>
 <br>
 We'll have two instructor-led sessions and two "office hours" sessions. You should expect to get through the basics - Exercises 1 and 2 - 
-during the first session. Exercises 3, 4, and 5 and more challenging. Work through them and bring questions during the instructor-led session
-or office hours sessions.
+during the first session. Exercises 3, 4, and 5 are a bit more challenging. Work through them and 
+bring questions during the instructor-led sessions or office hours sessions.
 
 <br>
 Your Tourguides:
