@@ -11,6 +11,13 @@ are three steps here:
 2. Create a mount point
 3. Mount the volume
 
+{{<mermaid align="left">}}
+graph LR;
+    A[Format the volume] -->|Verify with lsblk -fs| B[Create the mount point]
+    B -->|Verify with ls -lah /| C[Mount the volume]
+    C -->|Verify with mount| E[Done]
+{{< /mermaid >}}
+
 
 First, connect to the EC2 instance that you created earlier as you did in the _Logging in_ section.
 
