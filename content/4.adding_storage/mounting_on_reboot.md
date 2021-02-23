@@ -37,13 +37,6 @@ Now that we know the UUID, let's add it to the _/etc/fstab_ file. Open the file:
 sudo nano /etc/fstab
 ```
 
-The file will look like:
-
-```code
-#
-UUID=90e29211-2de8-4967-b0fb-16f51a6e464c     /xfs    defaults,noatime  1   1
-```
-
 Add the following line to the file, using the UUID you saved previously:
 
 ```code
