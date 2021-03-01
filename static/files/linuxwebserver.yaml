@@ -428,7 +428,7 @@ Resources:
             echo "hello world from linuxwebserver!" > /webdata/www/html/index.html
             chmod 755 /webdata/www/html/index.html
             # install the sample httpd configuration file and restart the server
-            wget -O /etc/httpd/conf/httpd.conf https://raw.githubusercontent.com/dixonaws/aws-cloudops-linux/main/static/files/httpd.conf
+            curl -X GET -o /etc/httpd/conf/httpd.conf https://raw.githubusercontent.com/dixonaws/aws-cloudops-linux/main/static/files/httpd.conf
             /etc/init.d/httpd restart
       Tags:
         - Key: Name

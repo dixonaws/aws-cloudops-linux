@@ -16,6 +16,7 @@ with a tool called [Cloudformation](https://aws.amazon.com/cloudformation/). Wha
 6. Move the web content
 7. Configure Apache httpd to point to the new web location
 
-Download and launch [this template](https://github.com/dixonaws/aws-cloudops-linux/blob/main/static/files/linuxwebserver.yaml) in the AWS Cloudformation Console to peform all of the steps in exercises 1-5. 
+Download and launch [this template](https://github.com/dixonaws/aws-cloudops-linux/blob/main/static/files/linuxwebserver.yaml) in the AWS 
+Cloudformation Console to peform all of the steps in exercises 1-5. The stack takes about 2 minutes to create.
 Simply delete the stack to perform exercise 6 (Cleaning Up). Note that you must have an existing private key in EC2 before
 you launch this template.
