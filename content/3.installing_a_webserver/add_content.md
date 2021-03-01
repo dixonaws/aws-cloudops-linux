@@ -27,19 +27,11 @@ Add the ec2-user user to the www group:
 sudo usermod -a -G www ec2-user
 ```
 
-Log out to refresh your permissions and include the new www group.
+Log out by issuing the <code>exit</code> command to refresh your permissions and include the new www group.
 
-Log back in again and verify that the www group exists with the groups command.
+Log back in again and verify that the www group exists with the <code>groups</code> command. Your output looks similar to the following:
 
-```commandline
-groups
-```
-
-Your output looks similar to the following:
-
-```commandline
-ec2-user adm wheel systemd-journal www
-```
+![groups](/images/groups_output.png?height=300&border=1&bordercolor=black)
 
 Change the group ownership of the /var/www directory and its contents to the www group.
 ```commandline
@@ -58,12 +50,15 @@ find /var/www -type f -exec sudo chmod 0664 {} +
 ```
 
 
-Right now you are in the /home directory. You can verify this by using the "pwd" command. Change your directory to /var/www/html 
+
+Right now you are in the /home directory. You can verify this by using the "pwd" command. Change your directory to /var/www/html:
 ```commandline
 cd /var/www/html
 ```
 
-Add some sample content to be served by your web server by adding a file called index.html using this command:
+=======
+Add some sample content to be served by your web server. Add a file called index.html using this command:
+
 
 ```commandline
 nano index.html
@@ -84,8 +79,14 @@ You can add any html file you want. For example, you can use this simple html fi
 
 ```
 
-Save your file.
+Save your file and use lynx to browse to the page with <code>lynx http://localhost</code>. You should
+see something like this:
 
-In the next section, we'll configure  the network so that you can access your web server from the internet.
+![sample webpage](/images/my_first_webpage.png?height=300)
+
+
+
+In the next section, we'll configure  the network so that you can 
+access your web server from the internet.
 
 

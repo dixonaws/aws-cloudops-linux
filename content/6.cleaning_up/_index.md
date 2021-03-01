@@ -5,6 +5,11 @@ weight: 100
 pre: "<b>6. </b>"
 ---
 
+{{% notice info%}}
+We would very much appreciate it if you would take [our survey](https://docs.google.com/forms/d/e/1FAIpQLSdS8rG5zn7GcLi3b_JEK7xAODHVaMu-ehH7RiU7mHgAdt7zKw/viewform?fbzx=-5379244279693983460) so that we can improve the content for next time! Responses are anonymous. 
+{{% /notice%}}
+
+
 The web server you created in this workshops is in the [free tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc).
 
 However you should take care to shutdown the instance and remove the storage volume so that you do not incur any costs.

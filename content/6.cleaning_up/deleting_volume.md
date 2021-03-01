@@ -7,7 +7,12 @@ weight: 10
 
 We'll start by detaching the EBS volume from the EC2 instance. 
 
-First, unmount the volume from your EC2 instance:
+First, stop the web server with the following command:
+```commandline
+sudo systemctl stop httpd
+```
+
+Then, unmount the volume from your EC2 instance:
 
 ```commandline
 sudo umount -d /dev/xvdf
