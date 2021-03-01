@@ -4,8 +4,8 @@ Description: >-
   an Amazon EC2 instance running the Amazon Linux AMI. The AMI is chosen based
   on the region in which the stack is run. This example creates an EC2 security
   group for the instance to give you SSH access. **WARNING** This template
-  creates an Amazon EC2 instance. You will be billed for the AWS resources used
-  if you create a stack from this template.
+  creates an Amazon EC2 instance and EBS volume in us-east-1a. You will be billed
+  for the AWS resources used if you create a stack from this template.
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
@@ -79,6 +79,15 @@ Parameters:
     Default: 0.0.0.0/0
     AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
     ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.
+  WebLocation:
+    Description: The IP address range that can be used to browse to the web server on the instance
+    Type: String
+    MinLength: '9'
+    MaxLength: '18'
+    Default: 0.0.0.0/0
+    AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+    ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.
+
 Mappings:
   AWSInstanceType2Arch:
     t1.micro:
@@ -364,7 +373,18 @@ Mappings:
     us-west-2:
       HVM64: ami-01fee56b22f308154
       HVMG2: ami-0fe84a5b4563d8f27
+
 Resources:
+  EBSVolume:
+    Type: 'AWS::EC2::Volume'
+    Properties:
+      AvailabilityZone: !GetAtt EC2Instance.AvailabilityZone
+      Size: 1
+      VolumeType: gp2
+      Tags:
+        - Key: Name
+          Value: linuxwebserver-volume
+
   EC2Instance:
     Type: 'AWS::EC2::Instance'
     Properties:
@@ -379,15 +399,62 @@ Resources:
           - AWSInstanceType2Arch
           - !Ref InstanceType
           - Arch
+      UserData:
+        Fn::Base64:
+          !Sub |
+            #!/bin/bash
+            # sleep for 1 minute to ensure that the volume attachment is complete
+            sleep 1m
+            yum update && yum upgrade
+            yum install lynx
+            # format and mount the volume; add it to /etc/fstab
+            mkfs -t ext4 /dev/xvdf
+            mkdir /webdata
+            echo -e "/dev/xvdf \t/webdata \t ext4 \tdefaults \t0 \t0" >> /etc/fstab
+            mount -a
+            # install and start the webserver
+            yum install -y httpd;
+            /etc/init.d/httpd start;
+            chkconfig --level 345 httpd on
+            # configure directory permissions
+            groupadd www
+            usermod -a -G www ec2-user
+            mv /var/www /webdata
+            chgrp -R www /webdata
+            chmod 2775 /webdata
+            find /webdata -type d -exec chmod 2775 {} +
+            find /webdata/www -type f -exec sudo chmod 0664 {} +
+            # install a hello world page
+            echo "hello world from linuxwebserver!" > /webdata/www/html/index.html
+            chmod 755 /webdata/www/html/index.html
+            # install the sample httpd configuration file and restart the server
+            wget -O /etc/httpd/conf/httpd.conf https://raw.githubusercontent.com/dixonaws/aws-cloudops-linux/main/static/files/httpd.conf
+            /etc/init.d/httpd restart
+      Tags:
+        - Key: Name
+          Value: linuxwebserver
+
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
-      GroupDescription: Enable SSH access via port 22
+      GroupDescription: Enable SSH access via port 22, web access via port 80
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: '22'
           ToPort: '22'
           CidrIp: !Ref SSHLocation
+        - IpProtocol: tcp
+          FromPort: '80'
+          ToPort: '80'
+          CidrIp: !Ref WebLocation
+
+  VolumeAttachment:
+    Type: 'AWS::EC2::VolumeAttachment'
+    Properties:
+      Device: 'xvdf'
+      InstanceId: !Ref EC2Instance
+      VolumeId: !Ref EBSVolume
+
 Outputs:
   InstanceId:
     Description: InstanceId of the newly created EC2 instance

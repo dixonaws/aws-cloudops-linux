@@ -1,23 +1,18 @@
 ---
-title: "Clean up your volume"
+title: "Verify Billing Information"
 draft: false
 chapter: no
-weight: 10
+weight: 30
 ---
 
-We'll start by detaching the EBS volume from the EC2 instance. 
+You should also verify billing information in the billing console to ensure that
+you are not liable for any charges.
 
-First, stop the web server with the following command:
-```commandline
-sudo systemctl stop httpd
-```
+Follow [these instructions](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/control-access-billing.html#ControllingAccessWebsite-Activate) to activate
+your user for the billing console.
 
-Then, unmount the volume from your EC2 instance:
+Click the username link at the top of the AWS Console and then click *My Billing Dashboard*
 
-```commandline
-sudo umount -d /dev/xvdf
-```
+You should see your current month-to-date balance as some amount less than $1, and your forecasted spend less
+than $10.
 
-Then, detach the volume from the instance as explained in _"Step 2: Detach the volume from the instance"_ of these [these instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html).
-
-Once the volume is detached from the EC2 Instance, follow [these instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-deleting-volume.html) to delete the volume. 
