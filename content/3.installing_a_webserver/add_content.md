@@ -56,7 +56,6 @@ Right now you are in the /home directory. You can verify this by using the "pwd"
 cd /var/www/html
 ```
 
-=======
 Add some sample content to be served by your web server. Add a file called index.html using this command:
 
 
