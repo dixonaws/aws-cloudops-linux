@@ -49,7 +49,16 @@ Recursively change the permissions for files in the /var/www directory and its s
 find /var/www -type f -exec sudo chmod 0664 {} +
 ```
 
-Add some sample content to be served by your web server. Change directory to /var/www/html and add a file called index.html using this command:
+
+
+Right now you are in the /home directory. You can verify this by using the "pwd" command. Change your directory to /var/www/html:
+```commandline
+cd /var/www/html
+```
+
+=======
+Add some sample content to be served by your web server. Add a file called index.html using this command:
+
 
 ```commandline
 nano index.html
