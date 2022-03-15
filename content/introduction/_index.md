@@ -5,7 +5,7 @@ weight: 10
 ---
 
 {{% notice info%}}
-Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) and update your progress as you go through the workshop! Also add yourself to the #linux Slack channel: [Join here](https://join.slack.com/share/zt-minfdvox-CmVuqFaWSGYuhoFITPeRNQ)
+Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) and update your progress as you go through the workshop! 
 {{% /notice%}}
 
 Welcome to the Amazon CloudOps Linux Workshop!
