@@ -54,6 +54,18 @@ identifier = "li1"
 url = "https://www.linkedin.com/in/claudiu-bota-6b400315a/"
 weight = 40
 
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin fa-lg'></i> Lerna Ekmekcioglu"
+identifier = "li2"
+url = "https://www.linkedin.com/in/lerna/"
+weight = 50
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin fa-lg'></i> Utsav Joshi"
+identifier = "li3"
+url = "https://www.linkedin.com/in/joshiutsav/"
+weight = 60
+
 
 
 [outputs]
