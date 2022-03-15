@@ -7,11 +7,11 @@ pre:
 
 It is helpful to have some background on the AWS Global Infrastructure before we launch a Linux instance in AWS.
 
-AWS currently has 24 regions in its [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/).
+As of March 2022, AWS has 26 regions in its [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/).
 Each of these regions contains at least two Availability Zones. You can think of an Availability Zone as a collection
-of one or more physical datacenters. There are 77 Availability Zones throughout the world. 
+of one or more physical datacenters. There are 84 Availability Zones throughout the world. 
 
-We'll be using the _us-east-1_ region in this session. 
+We'll be using the _us-east-1_ region in this session. Physically, this region is located in northern Virginia, just outside of Washington, D.C. 
 
 <img src='/images/global_footprint.png' width='600px'>
 
