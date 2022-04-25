@@ -18,7 +18,7 @@ Parameter | Value
 User name | admin
 AWS access type | Access key - Programmatic access
 Set permissions | Attach existing policies directly
-Policy name | PowerUserAccess
+Policy name | AdministratorAccess
 Tags | None
 
 <p>&nbsp;<p>
