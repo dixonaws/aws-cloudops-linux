@@ -1,7 +1,7 @@
 ---
 title: "Amazon CloudOps Linux Workshop"
 chapter: true
-weight: 1
+weight: 10
 ---
 
 ### Welcome Students!
@@ -11,7 +11,6 @@ weight: 1
 {{% notice info%}}
 Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) and update your progress as you go through the workshop!
 {{% /notice%}}
-
 
 In this workshop, we will walk through the fundamentals of Linux server administration as a part of the AWS Cloud Operations course.
 By the end of this two-session module, you will be able to perform basic Linux and AWS administration tasks as a preparation for the
