@@ -1,7 +1,7 @@
 ---
 title: "Introduction to EBS"
 draft: false
-weight: 63
+weight: 61
 ---
 
 Amazon Elastic Block Store (Amazon EBS) provides block level storage volumes for use with EC2 instances. EBS volumes behave like raw, unformatted block devices. You can mount these volumes as devices on your instances. 
