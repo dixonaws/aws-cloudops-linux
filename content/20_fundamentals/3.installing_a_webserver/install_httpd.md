@@ -1,7 +1,7 @@
 ---
 title: "Install Apache httpd"
 chapter: false
-weight: 44
+weight: 41
 ---
 
 In this section, we'll use the yum package manager to install a popular open-source web server, _Apache httpd_. Start connecting to the EC2 instance that you created earlier
