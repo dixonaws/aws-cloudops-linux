@@ -27,7 +27,7 @@ Start the web server with this command:
 sudo systemctl start httpd
 ```
 
-Configure the web server to start with each system boot using the chkconfig command:
+Configure the web server to start with each system boot using the systemctl command:
 
 ```commandline
 sudo systemctl enable httpd
