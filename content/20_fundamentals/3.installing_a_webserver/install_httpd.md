@@ -53,7 +53,7 @@ lynx http://localhost
 
 {{%notice note%}} 
 You will initially see an error in the browser that
-reads _HTTP 301 - Forbidden_. This is the default response for new 
+reads _HTTP 403 - Forbidden_. This is the default response for new 
 installations of Apache httpd. Don't worry - this is expected and will show the Apache
 test page after a few seconds. When you add some web content in the next section, this
 error will not be shown.
