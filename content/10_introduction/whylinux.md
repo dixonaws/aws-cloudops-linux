@@ -9,6 +9,7 @@ Linux in the datacenter | Linux on IoT devices | Linux on planes | Linux on phon
 <img src='/images/linux_datacenter.jpg' width='200px'> | <img src='/images/linux_iot.png' width='200px'> | <img src='/images/linux_inflight.jpg' width='200px'> | <img src='/images/linux_on_android.png' width='200px'> | 
 
 From Wikipedia:
+
 * Linux is a family of **open-source** Unix-like operating systems based on the Linux kernel, an operating system 
 kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
