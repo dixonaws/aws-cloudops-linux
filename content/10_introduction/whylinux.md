@@ -37,7 +37,7 @@ iron systems such as mainframe computers**, and is the only OS used on TOP500 su
 
 * Linux also runs on **embedded systems**, i.e. devices whose operating system is typically 
 built into the firmware and is highly tailored to the system. This includes **routers**, automation controls, **smart 
-home technology **(like Google Nest), **televisions** (Samsung and LG Smart TVs use Tizen 
+home technology** (like Google Nest), **televisions** (Samsung and LG Smart TVs use Tizen 
 and WebOS, respectively), **automobiles** (for example, Tesla, Audi, Mercedes-Benz,
 Hyundai, and Toyota all rely on Linux), digital video recorders, video game consoles, and 
 smartwatches. The Falcon 9's and the Dragon 2's avionics use a customized version of Linux.
