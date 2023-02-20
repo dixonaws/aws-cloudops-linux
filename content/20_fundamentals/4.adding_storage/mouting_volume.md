@@ -1,7 +1,7 @@
 ---
 title: "Formatting and mounting"
 chapter: false
-weight: 65
+weight: 64
 ---
 
 The EBS volume is attached to the EC2 instance. However, you need to make the volume available to use by formatting and mounting it. There

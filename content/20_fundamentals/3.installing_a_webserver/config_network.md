@@ -1,7 +1,7 @@
 ---
 title: "Configure the Network"
 chapter: false
-weight: 42
+weight: 44
 ---
 
 We'll have to open port 80 on the web server so that you can access it from the internet. 

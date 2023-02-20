@@ -2,7 +2,7 @@
 title: "Clean up your volume"
 draft: false
 chapter: no
-weight: 102
+weight: 101
 ---
 
 We'll start by detaching the EBS volume from the EC2 instance. 

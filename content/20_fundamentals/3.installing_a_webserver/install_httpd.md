@@ -1,7 +1,7 @@
 ---
 title: "Install Apache httpd"
 chapter: false
-weight: 44
+weight: 41
 ---
 
 In this section, we'll use the yum package manager to install a popular open-source web server, _Apache httpd_. Start connecting to the EC2 instance that you created earlier
@@ -27,7 +27,7 @@ Start the web server with this command:
 sudo systemctl start httpd
 ```
 
-Configure the web server to start with each system boot using the chkconfig command:
+Configure the web server to start with each system boot using the systemctl command:
 
 ```commandline
 sudo systemctl enable httpd
@@ -53,7 +53,7 @@ lynx http://localhost
 
 {{%notice note%}} 
 You will initially see an error in the browser that
-reads _HTTP 301 - Forbidden_. This is the default response for new 
+reads _HTTP 403 - Forbidden_. This is the default response for new 
 installations of Apache httpd. Don't worry - this is expected and will show the Apache
 test page after a few seconds. When you add some web content in the next section, this
 error will not be shown.

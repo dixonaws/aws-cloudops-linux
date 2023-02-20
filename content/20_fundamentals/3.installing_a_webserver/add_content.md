@@ -1,7 +1,7 @@
 ---
 title: "Add Content"
 chapter: false
-weight: 41
+weight: 42
 ---
 
 By default, Apache httpd stores web content in the /var/www directory. To 
