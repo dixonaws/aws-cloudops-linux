@@ -4,8 +4,12 @@ chapter: false
 weight: 10
 ---
 
-{{% notice info%}}
+<!-- {{% notice info%}}
 Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) and update your progress as you go through the workshop! 
+{{% /notice%}} -->
+
+{{% notice info%}}
+Add yourself to the class roster and update your progress as you go through the workshop! 
 {{% /notice%}}
 
 Welcome to the Amazon CloudOps Linux Workshop!
