@@ -110,7 +110,7 @@ sudo systemctl restart httpd
 
 Refresh again your browser. Your web site will be up and running. The Apache server uses the new location for its document root directory.
 
-Congratulations! You've finished the Linux Workshop! Make sure to update the class roster to 
+Congratulations! You've finished the Linux Workshop! Make sure to update the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) to 
 show your progress.
 
 The next step is to clean up your account -- rmeove the instance and the EBS volume to 
