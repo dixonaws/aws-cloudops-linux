@@ -24,8 +24,9 @@ step 2 - Add Content.
 
 <img src="/images/test_page_from_internet.png" height=300 style="border: 1px solid #000000">
 <br>
+
 {{% notice note%}}
-Please update the [class roster](https://docs.google.com/spreadsheets/d/1xxHMJ_m2R-VvTCkJWQvTv6I2geRETGq9m9ezoIEyBxw/edit?usp=sharing) when you finish with Exercise 3.
+Please update the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) when you finish with Exercise 3.
 {{% /notice%}}
 
 
