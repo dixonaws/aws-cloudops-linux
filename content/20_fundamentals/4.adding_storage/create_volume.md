@@ -13,7 +13,7 @@ Follow "Create an empty volume" using [these instructions](https://docs.aws.amaz
 Use the following parameters:
 
 {{%notice note%}}
-You can find the availability zone for your instance on the EC2 details page under the _Security_ tab.
+You can find the availability zone for your instance on the EC2 details page under the _Networking_ tab.
 {{% /notice%}}
 
 
