@@ -14,9 +14,11 @@ you launched the instance.
 This command will establish an SSH connection to your server, logging in with the user
 _ec2-user_, which is the default on Amazon Linux 2. 
 
+You can drag and drop the file into the terminal after "ssh -i " to get the file with its full path.
 
 ```
 ssh -i /full_path/to/your_private_key_file.pem ec2-user@your_ec2_instance_public_ip
+# Example: ssh -i ~/Downloads/my_private_key.pem ec2-user@1.2.3.4
 ```
 
 {{%notice note%}}
@@ -37,7 +39,9 @@ configuration that protects the system from compromise.
 
 
 {{% notice note%}}
-If you stop and start your instance throughout this workshop, when ssh'ing to your ec2 instance, ensure to use the current public ip address of your ec2 instance as it may have changed.
+If you stop and start your instance throughout this workshop, when ssh'ing to your ec2 instance, 
+ensure to use the current public ip address of your ec2 instance as it may have changed.
 For details on why this happens, see "Public IPv4 addresses" at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html 
-"We release your instance's public IP address when it is stopped, hibernated, or terminated. Your stopped or hibernated instance receives a new public IP address when it is started."
+"We release your instance's public IP address when it is stopped, hibernated, or terminated. 
+Your stopped or hibernated instance receives a new public IP address when it is started."
 {{% /notice%}}
