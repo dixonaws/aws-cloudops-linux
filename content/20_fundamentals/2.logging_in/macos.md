@@ -16,7 +16,7 @@ _ec2-user_, which is the default on Amazon Linux 2.
 
 
 ```
-ssh -i <your_private_key.pem> ec2-user@<your_host_public_ip>
+ssh -i /full_path/to/your_private_key_file.pem ec2-user@your_ec2_instance_public_ip
 ```
 
 {{%notice note%}}
@@ -25,7 +25,7 @@ of your private key file. You may see an error such as "WARNING: UNPROTECTED PRI
 In this case, just change the permissions of your private key to 400 (user read only) 
 with the command:
 ```commandline
-chmod 400 <your_private_key_file.pem>
+chmod 400 /full_path/to/your_private_key_file.pem
 ```
 {{% /notice%}}
 
