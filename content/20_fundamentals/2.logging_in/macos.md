@@ -34,3 +34,10 @@ Try to establish a connection with the user _root_. You'll see that access is de
 The _root_ user is typically not allowed to login via SSH. This is a common security
 configuration that protects the system from compromise.
 {{% /notice%}}
+
+
+{{% notice note%}}
+If you stop and start your instance throughout this workshop, when ssh'ing to your ec2 instance, ensure to use the current public ip address of your ec2 instance as it may have changed.
+For details on why this happens, see "Public IPv4 addresses" at https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html 
+"We release your instance's public IP address when it is stopped, hibernated, or terminated. Your stopped or hibernated instance receives a new public IP address when it is started."
+{{% /notice%}}

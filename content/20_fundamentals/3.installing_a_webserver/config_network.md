@@ -29,4 +29,8 @@ step 2 - Add Content.
 Please update the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) when you finish with Exercise 3.
 {{% /notice%}}
 
+{{% notice note%}}
+Throughout this workshop, your home computer's IP address may change in case it is dynamically assigned by your Internet Service Provider.  In this case, you will also need to edit each inbound rule in the security group created in this workshop with the latest _Source_ = My IP.  For this, simply edit the inbound rule and pick _Source_ = My IP from the drop down which will update it to your current IP address.  Then Click _Save Rules_
+{{% /notice%}}
+
 
