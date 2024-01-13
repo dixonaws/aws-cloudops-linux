@@ -15,7 +15,7 @@ Use the following parameters:
 Parameter | Value
 --- | ---
 Region | _us-east-1_
-Amazon Machine Image | _Amazon Linux 2 AMI, SSD Volume Type, 64-bit (x86)_
+Amazon Machine Image | _Amazon Linux 2023 AMI, SSD Volume Type, 64-bit (x86)_
 Instance type | _t2.micro (free tier eligible)_
 Instance Details | (accept all defaults)
 Storage | (accept default 8GB SSD volume)
