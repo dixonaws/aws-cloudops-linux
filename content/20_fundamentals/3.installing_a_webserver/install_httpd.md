@@ -60,7 +60,7 @@ error will not be shown.
 {{% /notice%}}
 
 
-![httpd](/images/apache_test_page.png?height=300px)
+![httpd](/images/apache-it-works-test-page.png?height=300px)
 
 Once you see this screen, you have successfully installed _Apache httpd_ and been able to browse to it from 
 your Linux instance. Done!  
