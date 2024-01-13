@@ -12,7 +12,7 @@ the private key, you should have been given an option to download this file when
 you launched the instance.
 
 This command will establish an SSH connection to your server, logging in with the user
-_ec2-user_, which is the default on Amazon Linux 2. 
+_ec2-user_, which is the default on Amazon Linux 2023. 
 
 You can drag and drop the file into the terminal after "ssh -i " to get the file with its full path.
 
