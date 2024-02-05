@@ -4,7 +4,7 @@ chapter: false
 weight: 10
 ---
 
-Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) and update your progress as you go through the workshop! 
+Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing) and update your progress as you go through the workshop! Simply find the Linux tab, and add the date and time when you check in to the session or complete a lab. 
 
 Welcome to the Amazon CloudOps Linux Workshop!
 
