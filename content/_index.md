@@ -9,7 +9,7 @@ weight: 10
 # Amazon CloudOps Linux Workshop
 
 {{% notice info%}}
-Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) and update your progress as you go through the workshop!
+Add yourself to the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing#gid=0&range=A1) and update your progress as you go through the workshop!
 {{% /notice%}}
 
 In this workshop, we will walk through the fundamentals of Linux server administration as a part of the AWS Cloud Operations course.

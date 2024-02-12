@@ -23,5 +23,5 @@ Key Pair | Create a new key pair and name it: your_last_name-us-east-1.pem (down
 Login to the instance and continue to the next step.
 
 {{% notice note%}}
-Please update the [class roster](https://docs.google.com/spreadsheets/d/1hbInQSPG9gQN7vHxFJQmWkJl-zdCPRhH1IR41mdyqgI/edit#gid=0) when you finish with Exercise 1.
+Please update the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing#gid=0&range=A1) when you finish with Exercise 1.
 {{% /notice%}}
