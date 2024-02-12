@@ -7,7 +7,7 @@ pre:
 
 It is helpful to have some background on the AWS Global Infrastructure before we launch a Linux instance in AWS.
 
-As of February 2023, AWS has 33 regions in its [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/).
+As of February 2024, AWS has 33 regions in its [global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/).
 Each of these regions contains at least two Availability Zones. You can think of an Availability Zone as a collection
 of one or more physical datacenters. There are 105 Availability Zones throughout the world. 
 
