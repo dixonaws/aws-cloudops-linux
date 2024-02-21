@@ -30,7 +30,9 @@ Continue to the next step.
 Please update the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing#gid=0&range=A1) when you finish with Exercise 1.
 {{% /notice%}}
 
-
+{{% notice note%}}
+See details on Amazon EC2 free tier [here](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=categories%23compute)
+{{% /notice%}}
 
 
 
