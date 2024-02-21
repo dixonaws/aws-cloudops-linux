@@ -14,10 +14,7 @@ a look around in your new instance.
 
 {{%notice note%}}
 If you stopped your EC2 instance previously, please make sure to start it first.  If your instance is not started, you won't be able to log in to your instance.
-
 To start a stopped instance, select the instance by clicking on the checkbox next to instance name, and choose Instance state drop down, Start instance.
-It can take a few minutes for the instance to enter the running state.
-
-You can also see the instructions on how to start a stopped instance [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#starting-stopping-instances)
+It can take a few minutes for the instance to enter the running state.  You can also see the instructions on how to start a stopped instance [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#starting-stopping-instances)
 {{% /notice%}}
 
