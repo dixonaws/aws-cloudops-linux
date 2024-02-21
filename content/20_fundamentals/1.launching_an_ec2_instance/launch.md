@@ -9,7 +9,7 @@ In this tutorial, you'll launch an EC2 (Elastic Compute Cloud) instance into a r
 
 <img src='/images/launch_an_instance.png' width='400px'>
 
-Follow Step 1: Launch an instance using [these instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html). 
+Follow Step 1: Launch an instance using [these instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance). 
 Use the following parameters:
 
 Parameter | Value
