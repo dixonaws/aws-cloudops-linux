@@ -18,3 +18,7 @@ To start a stopped instance, select the instance by clicking on the checkbox nex
 It can take a few minutes for the instance to enter the running state.  You can also see the instructions on how to start a stopped instance [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#starting-stopping-instances)
 {{% /notice%}}
 
+{{% notice note%}}
+Throughout this workshop, your home computer's IP address may change in case it is dynamically assigned by your Internet Service Provider.  In this case, you will also need to edit each inbound rule in the security group created in this workshop with the latest _Source_ = My IP.  For this, simply edit the inbound rule and pick _Source_ = My IP from the drop down which will update it to your current IP address.  Then Click _Save Rules_
+{{% /notice%}}
+
