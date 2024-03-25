@@ -8,7 +8,7 @@ pre: "<b>4. </b>"
 At this point, you should have the following:
 
 1. An Amazon Linux EC2 instance
-2. A role attached to the instance such
+2. A role attached to the instance
 3. Some basic knowledge of the AWS CLI
 4. An S3 bucket in your account
 
