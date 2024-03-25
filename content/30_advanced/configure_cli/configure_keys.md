@@ -10,10 +10,10 @@ CLI. type ```aws configure``` at the command prompt. When prompted, input the Ac
 your new user (these values will be in the credentials.csv file that you downloaded. Set the default region to be *
 us-east-1.*
 <p>&nbsp;</p>
-The <i>configure</i> command makes a new entry in the ~/.aws/credentials file on your instance. View the contents of this file. If you're able to do this exercise during the live lecture, type the command into the chat window!
+The <i>configure</i> command makes a new entry in the `~/.aws/credentials` file on your instance. View the contents of this file. If you're able to do this exercise during the live lecture, type the command to view the file into the chat window (not the contents of the file, just the command to view it)!
 
 {{% notice info%}}
-Protect the Access key ID and Secret access key data! Treat them like a password - never share them with others, show them in a presentation, enter them in any programs/code, commit them to Github, etc. 
+Protect the Access key ID and Secret Access Key data! Treat them like a password - never share them with others, show them in a presentation, enter them in any programs/code, commit them to Github, etc. 
 {{% /notice%}}
 
 
