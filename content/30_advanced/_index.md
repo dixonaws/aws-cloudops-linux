@@ -12,6 +12,7 @@ and learn some basic automation techniques with the AWS CLI and bash -- skills y
 as an AWS CloudOps Engineer.<p>&nbsp;<p>
 
 Specifically, you will do the following:
+
 * Access the S3 and EC2 services using the AWS CLI
 * Learn how the CLI authenticates calls by attaching an Instance Profile
 * Use the EC2 metadata service in a bash script
