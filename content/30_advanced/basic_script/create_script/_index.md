@@ -5,7 +5,7 @@ weight: 241
 pre: "<b>4.1 </b>"
 ---
 
-First, create a script called ```get-instance-info.sh```
+First, create a script called ```get-instance-info.sh``` on your EC2 instance.
 
 The contents of the script are the following:
 
