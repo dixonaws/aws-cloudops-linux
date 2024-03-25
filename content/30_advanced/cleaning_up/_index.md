@@ -6,6 +6,7 @@ pre: "<b>5. </b>"
 ---
 
 As always, make sure to clean up your resources when finished:
-1. Delete the IAM user that you created in step 2 (should be named EC2AdminRole)
+
+1. Delete the IAM users and roles that you created in step 2 (should be named EC2AdminRole amd EC2PowerUserRole)
 2. Terminate any instances you created
-3. Empty and delete the S3 bucket s3://my-new-bucket-lastname
+3. Empty and delete the S3 bucket s3://my-new-bucket-<lastname>
