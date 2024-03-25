@@ -14,7 +14,7 @@ Trusted entity type | AWS service
 Use case | EC2
 Permissions policies | AdministratorAccess
 Permissions boundary | (accept all defaults)
-Role name | EC2AdminRole
+Role name | EC2PowerUserRole
 Description | Role for Advanced Linux labs
 Trusted entities| (accept all defaults)
 Add permissions | (accept all defaults)
