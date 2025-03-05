@@ -26,7 +26,7 @@ step 2 - Add Content.
 <br>
 
 {{% notice note%}}
-Please update the [class roster](https://docs.google.com/spreadsheets/d/1uWdf_sUDkg-DqW6ELK3SKRx8DTlP_EP05di6hkLjIgA/edit?usp=sharing#gid=0&range=A1) when you finish with Exercise 3.
+Please update the [class roster](https://docs.google.com/spreadsheets/d/1HNw-LBWG5JHo83Pb-1Qlqpgxh3a-92C6Pwye3qxdj0Q/edit?gid=328056100#gid=328056100) when you finish with Exercise 3.
 {{% /notice%}}
 
 {{% notice note%}}
